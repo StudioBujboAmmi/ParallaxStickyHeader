@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+   
+  <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Parallax Sticky Header</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+ 
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body onload="loaded()">
+
+    <div class="container-fluid" id="wrapper">
+      <div id="scroller">
+       <!--  Scroller controls main-container 1,2,3 and 4 -->
+      </div>
+    </div>
+
+  <div class="container-fluid main-container1">
+    <div class="navbar nav1  navbar-default navbar-fixed-top" role="navigation"style="height:auto;min-height:30px;">
+      <ul class="nav col-xs-12" >
+            <li class="active col-xs-4 text-center"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li class="col-xs-4 text-center"><a href="#about"><span class="glyphicon glyphicon-facetime-video"></span></a></li>
+            <li class="col-xs-4 text-center"><a href="#contact" style="border:none;"><span class="glyphicon glyphicon-bell"></span></a></li>
+          </ul>
+    </div> 
+  </div> <!-- End main-container1 -->
+
+  <div class="container-fluid main-container2" style="margin-top:40px;" id="slide1">
+   <div class="row"> 
+      <div id="profile-pic" style="height:400px;background:url(./images/1.jpg);">
+      </div>
+    </div>
+  </div> <!-- End main-container2 -->
+
+   <div class="container-fluid main-container3" id="slide2" style="position:relative;">
+   <div class="row" style="margin-top: -40px;">
+    <div id="profile-pic2" style="height:40px;">
+      <div class="navbar nav2 navbar-default navbar-fixed-top" role="navigation"style="height:auto;min-height:30px;">
+        <ul class="nav  col-xs-12" >
+          <li class="active col-xs-4 text-center"><a href="#"><span class="glyphicon glyphicon-headphones"></span></a></li>
+          <li class="col-xs-4 text-center"><a href="#about"><span class="glyphicon glyphicon-heart"></span></a></li>
+          <li class="col-xs-4 text-center"><a href="#contact" style="border:none;"><span class="glyphicon glyphicon-music"></span></a></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+  </div><!-- End main-container3 -->
+
+<div class="container-fluid main-container4" id="slide3">
+<div class="row">
+  <div class="col-xs-12" style="background-color:#f1f1f1;">
+   <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">Team List</div>
+    <!-- List group -->
+    <ul class="list-group modify">
+      <li class="list-group-item">
+      <div class="col-xs-6">Reddy<br>Developer</div>
+      <div class="col-xs-6"><img src="./images/p1.png"></div>
+      </li>
+       <li class="list-group-item">
+      <div class="col-xs-6">Amy<br>Developer</div>
+      <div class="col-xs-6"><img src="./images/p1.png"></div>
+      </li>
+       <li class="list-group-item">
+      <div class="col-xs-6">Kumar<br>UI Designer</div>
+      <div class="col-xs-6"><img src="./images/p1.png"></div>
+      </li>
+       <li class="list-group-item">
+      <div class="col-xs-6">Randy<br>Developer</div>
+      <div class="col-xs-6"><img src="./images/p1.png"></div>
+      </li>
+       <li class="list-group-item">
+      <div class="col-xs-6">Vicky<br>Designer</div>
+      <div class="col-xs-6"><img src="./images/p1.png"></div>
+      </li>
+       <li class="list-group-item">
+      <div class="col-xs-6">John<br>Developer</div>
+      <div class="col-xs-6"><img src="./images/p1.png"></div>
+      </li>
+       <li class="list-group-item">
+      <div class="col-xs-6">Richard<br>Designer</div>
+      <div class="col-xs-6"><img src="./images/p1.png"></div>
+      </li>
+      <br><br><br><br><br><br><br>
+    </ul>
+  </div>
+</div>
+</div>
+ </div><!-- End main-container4 -->
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+     <script src="js/iscroll.js"></script>
+     <script src="js/iscroll-probe.js"></script>
+     <script src="js/parallax.js"></script>
+
+    
+   
+  </body>
+</html>
